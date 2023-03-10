@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header {
+    background-color:white;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-size:25px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+.Add_file{
+    font-size:20px;
+}
+header h1{
+    position:relative;
+    left:25px;
+    display:flex;
+    align-items:center;
+}
+.medical{
+    width:70px;
+    height:70px;
+    position:relative;
+    border-radius:50px;
+    border:2px solid blue;
+    margin-right:8px
+}
+header nav{
+    position:relative;
+    right:200px;
+}
+.heading{
+    height:60px;
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin-top:2px;
+}
+.heading h1{
+    color:white;
+    position:relative;
+    left:30px;
+    top:5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #444;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #444;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.container{
+    margin-top:15px
+}

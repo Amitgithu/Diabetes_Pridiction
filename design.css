@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header {
+    background-color:white;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    font-size:25px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+.Add_file{
+    font-size:20px;
+}
+header h1{
+    position:relative;
+    left:25px;
+    display:flex;
+    align-items:center;
+}
+.medical{
+    width:70px;
+    height:70px;
+    position:relative;
+    border-radius:50px;
+    border:2px solid blue;
+    margin-right:8px
+}
+header nav{
+    position:relative;
+    right:200px;
+}
+.heading{
+    height:60px;
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin-top:2px;
+}
+.heading h1{
+    position:relative;
+    left:30px;
+    top:5px;
+}
+.add_table{
+    border:3px solid red;
+    border-radius:12px;
+    width:800px;
+    margin:auto;
+    padding:8px;
+    margin-top:30px;
+   
+    
+}
+input{
+    margin-bottom:10px;
+    font-size:20px;
+    padding:2px;
+}
+h4{
+    font-size:22px;
+    display:inline-block;
+    margin-bottom:5px;
+}
+.upload{
+    background-color:blue;
+    color:white;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.upload_button{
+    width:130px;
+    background-color:blue;
+    color:white;
+    height:50px;
+    font-size:20px;
+    border:none;
+    border-radius:8px;
+    margin-top:2px;
+}
