@@ -53,15 +53,9 @@ header nav{
 }
 .back_image{
     height: 500px;
-    display: flex;
-}
-.content{
-    width:500px;
-    border:2px solid red;
-}
-.back_eye{
-    width:500px;
-    border:2px solid red;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 #upload{
