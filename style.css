@@ -53,14 +53,20 @@ header nav{
 }
 .back_image{
     height: 500px;
-    background-image: url("background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
 }
+.content{
+    width:500px;
+    border:2px solid red;
+}
+.back_eye{
+    width:500px;
+    border:2px solid red;
+}
+
 #upload{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     margin-top:15px;
 
 }
